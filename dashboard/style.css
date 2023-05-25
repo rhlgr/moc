@@ -1,0 +1,157 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}html,body {
+    width: 100%;
+    min-height: 100vh;
+}
+.main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+}
+.designation{
+    width: 15%;
+    height: 100vh;
+}
+.logo{
+    width: 100%;
+    height: 12vh;
+    border-bottom: 1px solid black;
+    display: flex;
+    align-items: center;
+padding-left: 30px;
+}
+.logo img{
+    height: 8vh;
+}
+.employee_designation{
+    width: 100%;  
+    height: 88vh;
+    overflow: auto;
+}
+.employee_role{
+    width: 100%;
+    height: 8vh;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+   padding-left: 30px;
+}
+.employee_role a{
+    text-decoration: none;
+    font-size: 1.1vw;
+    color: black;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+.employee_role:hover{
+    background-color: rgba(128, 128, 128, 0.14);
+}
+.content{
+    width: 65%;
+    height: inherit;
+    background-color: #3237c92f;
+}
+.welcome{
+width: 100%;
+height: 12vh;
+display: flex;
+align-items: center;
+justify-content: space-between;
+padding: 0 20px;
+border-bottom: 1px solid rgba(0, 0, 0);
+}
+.welcome p ,.profile_top p {
+    font-size: 1.3vw;
+}
+.profile{
+    width: 20%;
+    height: inherit;
+}
+.profile_top{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.profile_info{
+    width: 100%;  
+    height:30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+.profile_info_img{
+    width: 55%;
+    height: 25vh;
+    background-image: url("https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 50%;
+    border: .1px solid rgba(0, 0, 0, 0.4);
+}
+.profile_info p{
+font-size: 1.5vw;
+margin-top: 1vh;
+}
+.tasks{
+    width: 100%;
+    height: 50vh;
+    padding: 20px;
+}
+.tasks >p {
+    font-size: 1.2vw;
+}
+.employee_task_list{
+    width: 100%;  
+    height: 40vh;
+    overflow: auto;
+    margin-top: 2vh;
+}
+.employee_task_list a{
+    text-decoration: none;
+    color: black;
+}
+.employee_task{
+    width: 100%;  
+    height: 8vh;  
+    margin: 10px 0;
+    padding: 0 10px;
+    background-color: rgba(128, 128, 128, 0.181);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.task_title{
+    width: 100%;
+    overflow: scroll;
+}
+.task_date_time{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.btn_logout{
+    background-color: black;
+    color: white;
+    padding: 10px 25px;
+}
+
+
+.last_btn{
+    width: 100%;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
